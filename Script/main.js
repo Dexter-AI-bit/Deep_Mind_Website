@@ -103,7 +103,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Form validation (simple client-side)
+// Form validation 
 const forms = document.querySelectorAll('form');
 forms.forEach((form) => {
   form.addEventListener('submit', (e) => {
@@ -123,7 +123,7 @@ forms.forEach((form) => {
     });
 
     if (isValid) {
-      // Show success message (mock)
+      // Success message 
       alert('Form submitted successfully! (This is a prototype)');
       form.reset();
     } else {
